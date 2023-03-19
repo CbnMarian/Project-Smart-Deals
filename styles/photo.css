@@ -1,0 +1,35 @@
+.poza-produs{
+  width: 300px;
+  border-radius: 10px 10px 0 0;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: -4px;
+}
+
+.div-imagine-produse{
+  position: relative;
+  text-align: center;
+}
+.produse{
+  width: 100%;
+  height: 260px;
+  filter: brightness(50%);
+  position: relative;
+  text-align: center;
+  color: white;
+  object-fit: cover;
+  
+}
+
+
+.imagine-produse-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.page-title{
+  color: white;
+  font-size: 40px;
+  font-family: Roboto, Arial;
+}

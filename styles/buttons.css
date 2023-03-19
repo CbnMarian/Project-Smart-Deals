@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+.veziproduse-box{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Source Sans Pro', sans-serif;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  
+}
+.veziproduse-box .vezi-produse{
+  width: 280px;
+  height: 80px;
+  color: white;
+  background-color: rgb(248, 57, 23);
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 #FED10F;
+  transition: ease-out 0.4s;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 60px;
+  white-space: nowrap;
+}
+.vezi-produse:hover {
+  box-shadow: inset 320px 0 0 0 #FED10F;
+  color: black;
+  font-weight: bold;
+}
+
+
+.finalizare-buton{
+  border: 0;
+  padding: 20px 70px;
+  background: #202020;
+  font-size: 20px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 1.4px;
+  border-color: white;
+}
+.finalizare-buton:hover{
+  background-color: #ffffff;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 35px #292929;
+  transition: 0.5s;
+  box-shadow: 0px 0px 35px #a5a5a5;
+}
+
+
+.button-comanda{
+  border: 0;
+  padding: 20px 70px;
+  background: #202020;
+  font-size: 15px;
+  border-radius: 0 0 10px 10px;
+  color: rgb(255, 255, 255);
+  width: 300px;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 22px;
+}
+
+.button-comanda:hover{
+  background-color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.5s;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 35px #292929;
+}
+
+.button-info{
+  border: 0;
+  padding: 20px 70px;
+  background: #009118;
+  font-size: 18px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  margin-left: 40px;
+  font-size: 27px;
+}
+
+/*butoane de contact permanente*/
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 0 7px;
+  background: #dddddd;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.a-button{
+  text-decoration: none;
+  color: #000000;
+}
+
+.wrapper .button .icon{
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 60px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+  
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #25D366;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #fdf030;
+  
+}

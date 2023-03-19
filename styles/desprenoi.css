@@ -1,0 +1,23 @@
+.FULL-text-desprenoi section {
+  padding: 10px 100px;
+  min-width: 600px;
+}
+
+.FULL-text-desprenoi  h1{
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  text-align: center;
+}
+
+.FULL-text-desprenoi, .lista-obiective{
+  color: white;
+}
+.FULL-text-desprenoi, .lista-obiective li{
+  font-size: 16px;
+}
+
+.first-section{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}

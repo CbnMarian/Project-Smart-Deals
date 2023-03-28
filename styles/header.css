@@ -56,7 +56,7 @@ body{
 }
 
 .meniu-text:hover{
- color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   cursor: pointer;
  }
 
@@ -68,9 +68,9 @@ body{
   display: flex;
   text-align: center;
   justify-content: center;
-  margin-top: 100px;
+ }
   
-}
+
 
 /*
 
@@ -78,7 +78,7 @@ body{
 
 .meniu-bara
 {
-  flex-direction: row;
+ 
   gap: 50px;
   display: flex;
   justify-content: center;
@@ -162,3 +162,33 @@ body{
  left: 80%;
 }
 
+@media (min-width: 768px){
+  .top-bar{
+    display: none;}
+
+
+  .meniu-bara{
+  gap: 20px;
+  height: 100px;
+  background: #27282c;
+  min-width: 300px;
+
+}
+.butoane
+{
+  position: relative;
+  background: #fff;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 30px;
+  transition: 0.5s;
+}
+
+
+
+
+}

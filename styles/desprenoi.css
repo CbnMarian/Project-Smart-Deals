@@ -1,6 +1,6 @@
 .FULL-text-desprenoi section {
-  padding: 10px 100px;
-  min-width: 600px;
+  padding: 10px 4%;
+  min-width: 350px;
 }
 
 .FULL-text-desprenoi  h1{
@@ -20,4 +20,8 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+.despre-noi-text li{
+  font-size: 20px;
 }

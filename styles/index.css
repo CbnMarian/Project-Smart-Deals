@@ -1,10 +1,10 @@
 .info{
-  padding: 10px 100px;
+  padding: 1rem 4rem;
+
 }
 
 .Tabel-pagina-principala {
-  padding: 10px 50px;
-  min-width: 600px;
+  padding: 0.625rem 3.125rem;
   display: flex;
   flex-direction: column;
   align-items: center;

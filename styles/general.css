@@ -2,15 +2,12 @@ body{
   margin: 0px;
   
 }
-.body{
-  background-color: rgb(255, 255, 255);
-}
 
 p{
   letter-spacing: 1px;
   text-indent: 20px;
   font-family: Roboto, Arial;
-  font-size: 16px;
+  font-size: 18px;
   color: rgb(255, 255, 255);
 }
 
@@ -26,28 +23,32 @@ a{
  font-weight: bold;
  
 }
+
+
+
 input{
   margin-left: 10px;
   padding: 10px 10px;
   border-radius: 3px;
   font-size: 18px;
   border: 1px solid #86b0b6;
-  width: 420px;
+  width: 220px;
 }
 
-textarea{
-  height: 150px;
-  width: 400px;
+textarea {
+  margin-left: 82px;
+  min-width: 190px;
+  max-width: 500px;
+  min-height: 130px;
   padding: 15px 20px;
   border: 1px solid #86b0b6;
-  margin-left: 90px;
   display: block;
   font-size: 16px;
+ 
 }
 
 .toate-prod{
-  padding: 0px 30px;
-  display: grid;
+    display: grid;
     grid-template-columns: 1fr  1fr  1fr; 
     margin-top: 50px;
     column-gap: 20px;
@@ -60,23 +61,11 @@ textarea{
 
 .div-first-section{
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: center;
   flex-direction: column;
 }
 
-@media(max-width: 1250px){
-  .toate-prod{
-    grid-template-columns:1fr 1fr; 
-}   
-}
 
 
-
-
-@media(min-width: 1600px){
-  .toate-prod{
-    grid-template-columns:1fr 1fr 1fr 1fr ; 
-}
-}
 

@@ -8,12 +8,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles/header.css" />
   <link rel="stylesheet" href="../styles/general.css" />
+  <link rel="stylesheet" href="../styles/zmedia.css">
   <link rel="stylesheet" href="../styles/icons.css" />
   <link rel="stylesheet" href="../styles/photo.css" />
   <link rel="stylesheet" href="../styles/sidebar.css" />
   <link rel="stylesheet" href="../styles/buttons.css" />
   <link rel="stylesheet" href="../styles/desprenoi.css" />
-  <script src="../js/exercitii.js"></script>
+
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+  <script src="/js/app.js" type="module"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" type="module"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   <title>Desprenoi</title>
 </head>
@@ -44,22 +50,30 @@
     
       
      <!--meniu-->
-     <div class="meniu-bara">
-        
-      <a class="butoane" href="/index.html" style="--clr:#1e9bff"><span>ACASA</span><i></i></a>
-      <a class="butoane" href="/html/Produse.html" target="_blank" style="--clr:#1e9bff"><span>Produse</span><i></i></a>
-      <a class="butoane" href="/html/Contact.html" target="_blank" style="--clr:#1e9bff"><span>contact</span><i></i></a>
-      <a class="butoane" href="/html/Desprenoi.html" target="_blank" style="--clr:#1e9bff"><span>despre noi</span>
-        <i></i></a>
+     <nav class="navbar">
+      <div class="content">
+        <div class="logo">
+          <a href="/index.html">SmartDeals</a>
+        </div>
+        <ul class="menu-list">
+          <div class="icon cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/html/Produse.html">Produse</a></li>
+          <li><a href="/html/Contact.html">Contact</a></li>
+          <li><a  href="/html/Desprenoi.html">Despre noi</a></li>
+          
+        </ul>
+        <div class="icon menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
       </div>
       
-    </div>
-    <div class="div-imagine-produse">
-      <img class="produse"   src="/photos/poza.jpg">
-      <div class="imagine-produse-text">
-        <h1 class="page-title">Despre noi</h1>
-      </div>
-    </div>
+      <!-- imagine principala pe toate paginile -->
+     <div class="div-imagine-produse">
+          <h1 class="page-title">DESPRE NOI</h1>
+      </div> 
           
     </header>
 <div class="FULL-text-desprenoi">
@@ -130,7 +144,7 @@
 
   <section class="lista-obiective">
     <h2>Principalele noastre obiective pentru viitorul apropiat:</h2>
-    <ul>
+    <ul class="despre-noi-text">
       <li>Reinvestirea eficientă a profitului în dezvoltare</li>
       <li>Dezvoltarea continua a serviciilor și a personalului</li>
       <li>Instruirea personalului</li>
@@ -152,34 +166,36 @@
       </footer>
       <!--butoane laterale-->
       <div>
-
+        
         <div class="wrapper">
           <div class="button">
-            <div class="icon">
+            <div class="button-icon">
               <a class="a-button">
+
                 <i class="fab fa-facebook-messenger"></i>
               </a>
-            </div>            
+            </div>
+            
           </div>
-
           <div class="button">
-            <div class="icon">
+            <div class="button-icon">
               <a class="a-button" href="https://wa.me/0746950305">
                 <i class="fab fa-whatsapp"></i>
+
               </a>
             </div>
+            
           </div>
-
           <div class="button">
-            <div class="icon">
+            <div class="button-icon">
               <a class="a-button"  href="tel:0745600275">
                 <i class="fa fa-phone" aria-hidden="true"></i>
 
               </a>
             </div>
             
-         </div>
-       </div>
+          </div>
+      </div>
   </div>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
